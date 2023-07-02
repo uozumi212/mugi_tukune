@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.bg-img {
+    background-image: url(../image/img03.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bg-img2 {
+    background-image: url(../image2/image_header02.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.navbar-nav .nav-mugi {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-mugi:hover {
+    color: orange;
+}
+
+.nav-mugi {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.image-fit img {
+    object-fit: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.footer-wrap {
+    background: skyblue;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.copy-write {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+
+@media (min-width: 992px) {
+    .nav-mugi {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
